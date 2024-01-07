@@ -1,0 +1,38 @@
+/* Shared styles and font  */
+* {
+  margin: 0;
+  padding: 0;
+}
+.fontA {
+  font-family: "Merriweather", serif;
+}
+.fontB {
+  font-family: "Inter", sans-serif;
+}
+/* header related styles  */
+
+.party {
+  color: white;
+  display: flex;
+  background-image: url("../resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1300px;
+  height: 600px;
+  margin: 50px auto;
+  border-radius: 16px;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.party h3{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+.party h1{
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
