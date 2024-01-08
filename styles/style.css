@@ -14,9 +14,14 @@
 .party {
   color: white;
   display: flex;
-  background: linear-gradient(180deg, rgba(7, 2, 17, 0.308) 0%, rgba(7, 2, 17, 0.2) 100%), url('../resources/Banner\ Image.png');
+  background: linear-gradient(
+      180deg,
+      rgba(7, 2, 17, 0.308) 0%,
+      rgba(7, 2, 17, 0.2) 100%
+    ),
+    url("../resources/Banner\ Image.png");
 
-/* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+  /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
   background-repeat: no-repeat;
   background-size: cover;
   width: 1300px;
@@ -28,13 +33,38 @@
   align-items: center;
   border-radius: 16px;
 }
-.party h3{
+.party h3 {
   text-align: center;
   font-size: 32px;
   font-weight: 400;
 }
-.party h1{
+.party h1 {
   text-align: center;
   font-size: 72px;
   font-weight: 900;
+}
+
+/* offer section styles */
+
+.offer {
+  text-align: center;
+}
+.offer-title {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+}
+.offer-deals {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-category {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+}
+.offer-img {
+  width: 802.9px;
+  height: 500px;
 }
