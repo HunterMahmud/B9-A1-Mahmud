@@ -46,11 +46,14 @@
 
 .offer {
   text-align: center;
+  align-items: center;
+  margin: 100px 390px;
 }
 .offer-title {
   color: #f00;
   font-size: 88px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 .offer-deals {
   color: #f00;
@@ -116,4 +119,55 @@
   text-transform: uppercase;
   margin-top: 20px;
   margin-left: 32px;
+}
+
+/* portfolio section styles */
+.port {
+  margin: 100px auto;
+  /* align-items: center; */
+  width: 1300px;
+}
+.port-h3 {
+  text-transform: uppercase;
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.port-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.port-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.port-div {
+  text-align: center;
+}
+.port-items {
+  display: flex;
+}
+.port-img {
+  width: 400px;
+  height: 450px;
+  margin: 25px;
+}
+
+.port-left-img{
+  margin-left: 0;
+}
+.port-right-img{
+  margin-right: 0;
+}
+
+/* portfolio hover effect added on images */
+.port-img:hover {
+  opacity: 0.7;
 }
