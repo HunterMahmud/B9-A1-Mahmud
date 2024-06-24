@@ -2,7 +2,7 @@
 
 <h1> Assignment B9-A1-Mahmud </h1>
 
-**Live Link** [Live Link](https://huntermahmud.github.io/B9-A1-Mahmud/).
+**Visit Site:** [Live Link](https://huntermahmud.github.io/B9-A1-Mahmud/).
 <h2>Main Assignment Part total 6 </h2>
 <ol>
         <li>New Year Party Celebration (Banner Section Done)</li>
